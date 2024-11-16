@@ -16,3 +16,13 @@ form {
     border-radius: 8px;
     background-color: #f9f9f9;
 }
+/* Target the container of the Turnstile widget */
+.form-container {
+    background-color: black !important;
+}
+
+/* Target the iframe (in case the widget is inside an iframe) */
+iframe[src*="turnstile"] {
+    background-color: black !important;
+}
+
